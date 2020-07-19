@@ -1,12 +1,56 @@
-#3751
-#17jul20mlm, moved to #3751 ,chunking work, too much
-#work 3 thing
-#18jul20pgi lanjut
-#coba pake multi btn 1 signal untuk b1-b10, bind btn name
-#check b1->b2 b1<-b2  b10 ke b1 b7 ke b4 -found if elif do nothing ( 1-1=0 )
-#wow subhanallah berhasil, shorter code mewakili 10signal
-#next fix adder >100 open b3 etc 
-#next loader have b3 open b3
+#test force_fps = 30 physics_fps = 30 using 1node only 60fps too slow
+#pake areaenter delete addchild , diawal cuma 4 instanced_land
+#kalao lebih dari 300an nyandet2 ga ke scroll natap boundary
+#ditambai jarak di bawah ----- NO EFFECT
+#coba chunking 100 x 10 = 1000
+#belum chunking masih di test fps stabildi 29 28 fluktuatif di editor 
+#sudah chunking pake radio button
+#coba process
+#so cool but kalau belum selesai bisa keinterrupt
+#add disable biar ga ke interrupt, looks so cool but slower offcourse
+#add progbar
+
+#3743 merupakan copyan dari 3741 di improve, add set scroll position
+#add yield, change vscroll position
+#add loading animation
+
+#coba save tiap detik
+#add save tes aple x100
+#add tombol add aple >100 b2 disable=false
+
+#add list_tanaman
+# change texture 118 type, test 118 plant
+#ketemu kendala 118 ini add 5 berarti 120 , 119 120 gaada == nil ,error
+#noice, so much logic applied , phew, good job!!
+#-----
+#next repair 57% loading, half animation if land < 100 
+
+#3746 
+#perapian code lagi
+#next mbetulin savean 118 tipe
+
+#3747 repair 59%
+#delete 30x30 folder
+#kendala 2 ke 1 18 pb 0.5 harusnya 2.7
+#good job, mungkin perlu di split jadi beberapa script biar pys process ga jumbled
+
+#3748 reclean script and unused nodes
+#fixing load save game
+
+#3749
+#add stolastpos each 1s timeout
+#add 118 type selection, proceed plant
+#add vc di b1-10 u/ 100,200,300,etc
+#fix done lahanbaru movechild after addchild
+#add timelapsed sincelastplay
+#add timelapsed calculation
+#next : check > 2^63 int
+
+#3750 -16jul20 rework
+#add cancel 
+#found bug waterlily become lotus -fixed
+#cek savean productpertree -done
+#try to keep 99 save file for xperiment -done
 
 #17jul20 @ #3750
 #fix sc/vc
@@ -24,56 +68,12 @@
 #next: repair, decide b1-b10 from start tampilannya
 #next: repair jumlahpohon,levelpohon,produksiperdetik (save data)
 
-#3750 -16jul20 rework
-#add cancel 
-#found bug waterlily become lotus -fixed
-#cek savean productpertree -done
-#try to keep 99 save file for xperiment -done
-
-#3749
-#add stolastpos each 1s timeout
-#add 118 type selection, proceed plant
-#add vc di b1-10 u/ 100,200,300,etc
-#fix done lahanbaru movechild after addchild
-#add timelapsed sincelastplay
-#add timelapsed calculation
-#next : check > 2^63 int
-
-#3748 reclean script and unused nodes
-#fixing load save game
-
-#3747 repair 59%
-#delete 30x30 folder
-#kendala 2 ke 1 18 pb 0.5 harusnya 2.7
-#good job, mungkin perlu di split jadi beberapa script biar pys process ga jumbled
-
-#3746 
-#perapian code lagi
-#next mbetulin savean 118 tipe
-
-#add list_tanaman
-# change texture 118 type, test 118 plant
-#ketemu kendala 118 ini add 5 berarti 120 , 119 120 gaada == nil ,error
-#noice, so much logic applied , phew, good job!!
-#-----
-#next repair 57% loading, half animation if land < 100 
-
-#coba save tiap detik
-#add save tes aple x100
-#add tombol add aple >100 b2 disable=false
-
-#3743 merupakan copyan dari 3741 di improve, add set scroll position
-#add yield, change vscroll position
-#add loading animation
-
-#test force_fps = 30 physics_fps = 30 using 1node only 60fps too slow
-#pake areaenter delete addchild , diawal cuma 4 instanced_land
-#kalao lebih dari 300an nyandet2 ga ke scroll natap boundary
-#ditambai jarak di bawah ----- NO EFFECT
-#coba chunking 100 x 10 = 1000
-#belum chunking masih di test fps stabildi 29 28 fluktuatif di editor 
-#sudah chunking pake radio button
-#coba process
-#so cool but kalau belum selesai bisa keinterrupt
-#add disable biar ga ke interrupt, looks so cool but slower offcourse
-#add progbar
+#3751
+#17jul20mlm, moved to #3751 ,chunking work, too much
+#work 3 thing
+#18jul20pgi lanjut
+#coba pake multi btn 1 signal untuk b1-b10, bind btn name
+#check b1->b2 b1<-b2  b10 ke b1 b7 ke b4 -found if elif do nothing ( 1-1=0 )
+#wow subhanallah berhasil, shorter code mewakili 10signal
+#next fix adder >100 open b3 etc 
+#next loader have b3 open b3
