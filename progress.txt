@@ -75,5 +75,14 @@
 #coba pake multi btn 1 signal untuk b1-b10, bind btn name
 #check b1->b2 b1<-b2  b10 ke b1 b7 ke b4 -found if elif do nothing ( 1-1=0 )
 #wow subhanallah berhasil, shorter code mewakili 10signal
-#next fix adder >100 open b3 etc 
-#next loader have b3 open b3
+#next : fix adder >100 open b3 etc 
+#next : loader have b3 open b3
+#19jul20pgi 
+#found bug 99 add 100 ga ke b2
+#20jul20siang
+
+#3752
+#20jul20siang, going to change adder (proceed) =100 erase lh open b2- done
+#use scvc == fff, pass
+#next : load b2 lastpos
+#20jul20mlm,found unexpected proceedx99
