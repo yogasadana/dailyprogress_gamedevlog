@@ -84,5 +84,27 @@
 #3752
 #20jul20siang, going to change adder (proceed) =100 erase lh open b2- done
 #use scvc == fff, pass
-#next : load b2 lastpos
+#next : load (@ready) b2 lastpos
 #20jul20mlm,found unexpected proceedx99
+#next : add go to lastest - done, add to upper also
+#99 berpengaruh pada b3 , coba cek lagi (99x3 = 297) -fixed by back to 100
+#found 99 lh not shown -fixed by 98
+#found 100,b2 0,scrolldown = geser ke empty ,re-found only if at 100, 0 ga mslh
+#ganti ke proceedx98 worked perfectly tinggal lh yg geser itu saja blm
+#ketemu sc/vc y = -985 what is this ? why not stationary
+#ketemu : max value mempengaruhi bisa discroll atau ngga
+#fixed by set max value to 0, khususon untuk sc/vc == fff
+#what make max value change, how it calculated, masih misterius ,kapan2 cek lgi
+#1625 dari mana ya, hm, 5x325 - found out by print at process delta
+#bekasnya deleter ternyata, tampaknya ga ke update scrollnya
+#kenapa kok ngga kehapus tp yg sblmnya kehapus
+#lanjut besokk, good job!
+#next : beri limit di b10 1000, prevent laggg - done
+#next : add comma separator stuff
+
+#3753
+#21jul20 found bug b1 ke b10 stopped at 99% if at 1 
+#anim finished not fired - ternyata kecepatan, masih di adder 1x1
+#fixed by interlocking if, whichever first; execute
+#dahulukan b1b10lastpos - use bklik
+#found bug if land = 0 
