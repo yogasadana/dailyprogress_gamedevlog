@@ -1,0 +1,177 @@
+--------------TIME&ETC-------------------
+detik			        detik
+1menit		=  60	        detik
+1jam	  	=  3600 	detik
+1hari		=  86400	detik
+1bulan		=  2592000	detik
+1tahun		=  31104000	detik
+
+1K = 1000
+1M = 1000000
+1B = 1000000000
+1T = 1000000000000
+
+1M = 10^3
+1K = 10^6
+1B = 10^9
+1T = 10^12
+1GOOGOL = 10^100
+
+----------------GODOT--------------------
+9,223,372,036,854,775,807 maximum godot integer (2^63) 64bit maximum integer
+
+9223372036854775807
+
+mengatasi:
+[output overflow, print less text!]
+Project > Project Settings > General > Network > Limits > Debugger Stdout > Max Chars Per Second > change to higher value 
+
+
+for i in 0  : #ga di eksekusi , dilewati, di pass
+for i in 1  : #i = 0
+for i in 3  : #i = 0,1,2  jangan lupa +1 kalau dipakai yg berurutan, for i dimulai dari 0
+for i in 12 : #i = 0,1,2,3,4,5,6,7,8,9,10,11
+
+
+
+||| sangat membantu pekerjaan ini ada 118 button
+vvv 
+
+func _ready():
+	for button in get_tree().get_nodes_in_group("118btn"):
+		button.connect("pressed", self, "_some_button_pressed", [button])
+func _some_button_pressed(button):
+	print(button.name)
+	$type.text = button.name
+make sure group sama buttongroup itu beda, buttongroup untuk radiobutton
+
+
+instance() 
+tiap add child perlu .instance() baru
+pake local var saja atau assign
+yg bisa cuma 1x itu loadnya aja
+instance perlu dipanggil tiap add 1 baru
+
+var b = iland.instance()
+add_child(b)
+add_child(b)
+add_child(b)
+add_child(b)
+add_child(b)
+
+#hasilnya cuma 1 child di parent
+
+perlu:
+var b = iland.instance()
+add_child(b)
+b = iland.instance()
+add_child(b)
+b = iland.instance()
+add_child(b)
+b = iland.instance()
+add_child(b)
+b = iland.instance()
+add_child(b)
+
+baru bisa add 5 child 
+
+atau kalau ngga pake func biar lebih ringkas
+
+func _adder():
+  var b = iland.instance()
+  add_child(b)
+
+_adder()
+_adder()
+_adder()
+_adder()
+_adder()
+
+itu pake local variable
+
+atau pake for i in sekian2
+
+----------------AFTER EFFECTS--------------------
+
+shortcut yang sering digunakan :
+
+ctrl alt f      fit to comp 
+b               work area cursor head to cursor
+n               work area cursor tail to cursor
+[               mindah isi , head, ke cursor (dari depan)
+]               mindah isi, tail, ke cursor (daribelakang)
+alt [           trim dari head
+alt ]           trim dari tail
+pageup          move cursor -1 frame 
+pagedown        move cursor +1 frame
+alt scroll      zoom in out di timeline
+shift scroll    geser kiri kanan di timeline
+
+
+--------------------COREL DRAW----------------------
+
+pakai object hinting biar presisi ga ada 1pixel excess
+100 = 100 not 100 = 101
+
+scale with object outline ngikuti scale
+tanpa itu
+outline 1px tetap 1px meski ukuran tambah besar atau kecil
+
+apply scale :
+weld object kecil dalam yg mau di 100% scale
+
+
+-------------------INKSCAPE--------------------------
+inkscape pakai defaultnya 72 dpi kyknya
+72res di corel 92x92 ke inkscape tetap 92
+pake 96  jadi 69x69 
+pake 300 hadi 22x22
+
+nope,
+document pake 72dpi
+export pake 96dpi
+
+
+rendering resolution  export    hasilnya png
+300dpi                300dpi    92x92px
+96dpi                 96dpi     92x92px
+72dpi                 72dpi     92x92px
+
+300dpi                72dpi     22x22px
+96dpi                 96dpi     92x92px
+72dpi                 300dpi    383x383px
+
+defaultA4 to px
+793x1122
+ 
+inkscape batch export image dimulai dari bawah ke atas
+cek di object / urutan layernya
+kalo grup dari corel namanya jadi layer1000 dst
+kalo grup di inkscape namanya jadi g100 dst
+
+inkscape ga bisa import transparency toolnya coreldraw
+
+transparency bisa diexport ke inkscape pake:
+klik objectnya
+klik effect
+klik lens
+klik transparency
+atur ratenya sama colornya hitam sj
+klik apply (yg lain biarin ga dicentang )
+done
+
+cara ini pake lens ga mempengaruhi outline
+jadi outline tetep warna semula, cuma fill yang kepengaruh
+dan juga colornya overwrite colornya fill
+fill biru color oren ya jadi orenren
+cocoknya cara ini untuk nambai 1 layer transparant (pake black colour) di atasnya object yg mau di gelapkan
+
+
+
+-----------------etc
+ Ibarat jika kita ingin memiliki pohon kelapa 
+yang akan sudah bisa berbuah lima tahun mendatang 
+maka kita harus menanamnya hari ini. 
+ Kita tidak bisa menunggu lima tahun mendatang baru menanamnya. 
+Dan berharap langsung bisa berbuah saat itu juga. Tidak mungkin.
+  
