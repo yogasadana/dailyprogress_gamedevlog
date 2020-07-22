@@ -110,5 +110,5 @@
 #found bug if land = 0 
 #perlu pkai bklik karena btopen tdk ngetrack posiisnya
 #22jul20 lanjut 
-#b3 at ready done, found bug wrong anim direction - fix by bfrbtn = bklik 
+#b3 at ready done, found bug wrong anim direction - fix by bfrbtn = bklik  
 
