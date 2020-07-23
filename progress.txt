@@ -111,4 +111,22 @@
 #perlu pkai bklik karena btopen tdk ngetrack posiisnya
 #22jul20 lanjut 
 #b3 at ready done, found bug wrong anim direction - fix by bfrbtn = bklik  
+#next: e = i ???
+#found bug urutan ga sesuai, b2 @200 
 
+#3754
+#22jul20mlm, dipindah ke 3754 karena rada njlimet logic nya
+#ada cara yg lebih simple, hasil sama, pakai code yg simple
+#different code, same result, use simpler one
+#pkai curcilcount u/ ngetrack for i in lastcilcount, biar ga njlimet
+#cek lh saat 100 sm 99 beda coba kasi if
+#23jul20pgi
+#curcilcounter worked perfectly , good job!
+#next : test dari awal
+#found bug @ 198 add 1 kehitung 100
+# 99 +lh = 100 tanpa lh , gmna cara mbedakannya -done, only need 2line of code
+#next : merapikan sisa code moved to 3755, 3754 biarin
+
+#3755 
+#23jul20sore. sudah tes semua hasil = ok ,lanjut perapian code - done, 222 line
+# of code so far enough
