@@ -129,4 +129,24 @@
 
 #3755 
 #23jul20sore. sudah tes semua hasil = ok ,lanjut perapian code - done, 222 line
-# of code so far enough
+# of code so far enough, + 1209 other
+#23jul20mlm. pake comcat gabisa, too eavy, coba cek lgi di profiler
+#comcat 213.6% script funtion up to 300% phystime 4642.4% frametime 31678.5% woah
+#lebih kuat di script lngsung drpda yg dari autoload (heavy processing)
+#sdh bisa ternyata result harus di local variable karena always changing
+#yg sblumnya itu kedouble, worked , comcat +- 2% frametime rata2 18 - 20% total
+#siiip . recek autoload vs onthescript , sepertinya sama saja , tetep di 2%
+#recek lg A19.comcat vs comcat , lebih berat yg A19
+#sebaiknya di script lngsung saja
+#ambil comtype dari A19.u kasi option button
+#-------------------------------------------------heavy stuff done!, lanjuttt---
+#next : decide threat
+#next : decide storage / autosell
+#next : add pemindahan land (switch)
+#next : add multiselect pemindahan land
+#next : empty land type
+#next : change land type ( re-plant )
+#next : integrasi ke 0020 planterium
+#next : art or sound first
+#24jul20 servis spd motor, lanjut sore, revie ulang 3755
+#coba dahulukan switch
