@@ -150,3 +150,8 @@
 #next : art or sound first
 #24jul20 servis spd motor, lanjut sore, revie ulang 3755
 #coba dahulukan switch
+#26jul20 decide 1 atau multi ,yg jelas dipakai yg multi
+#sort by pertama click atau urutan 1-100
+#found something : pakai array ga convenient untuk ndelete misal 20-30 ditengah2
+#1-100 , coba cek dictionary, bisa, coba pake for i in 10 remove((20-1))
+#
