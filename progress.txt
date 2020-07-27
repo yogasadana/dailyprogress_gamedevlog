@@ -154,4 +154,6 @@
 #sort by pertama click atau urutan 1-100
 #found something : pakai array ga convenient untuk ndelete misal 20-30 ditengah2
 #1-100 , coba cek dictionary, bisa, coba pake for i in 10 remove((20-1))
-#
+#27jul20 moved to 3756, reclean code
+
+#3756
