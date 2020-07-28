@@ -157,3 +157,4 @@
 #27jul20 moved to 3756, reclean code
 
 #3756
+#28jul20 moved to idle plantable, resimplify design
