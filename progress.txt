@@ -159,4 +159,4 @@
 #3756
 #28jul20 moved to idle plantable, resimplify design
 #29jul20 work on excel idle plantapple,deciding stuff, hitung2 an
-#30jul20 work & test di godot engine
+#30jul20 work & test di godot engine,lanjut excel jg
