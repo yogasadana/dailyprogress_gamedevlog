@@ -158,3 +158,4 @@
 
 #3756
 #28jul20 moved to idle plantable, resimplify design
+#29jul20 work on excel idle plantapple,deciding stuff, hitung2 an
