@@ -160,3 +160,11 @@
 #28jul20 moved to idle plantable, resimplify design
 #29jul20 work on excel idle plantapple,deciding stuff, hitung2 an
 #30jul20 work & test di godot engine,lanjut excel jg
+
+#15000
+#30jul20 adding everything,executing ideas 10:00-11:00
+#add random 1-8 use randi% biar ga float rand rangeitu float
+#x230-465, y255-444
+#found timer wait time 1/1000 not in s but 1/60 in frame,test by f+=1 phys process
+#1=60frame 0.1 bner 6 frame 0.01 1frame, weird, batasnya sesuai fps nya
+#100fps bisa frame ikut per 100 tpi di profiler fps tetep 60 kebawah, 
