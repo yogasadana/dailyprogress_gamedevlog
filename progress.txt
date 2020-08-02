@@ -168,3 +168,14 @@
 #found timer wait time 1/1000 not in s but 1/60 in frame,test by f+=1 phys process
 #1=60frame 0.1 bner 6 frame 0.01 1frame, weird, batasnya sesuai fps nya
 #100fps bisa frame ikut per 100 tpi di profiler fps tetep 60 kebawah, 
+#decide spawn mechanism
+#31jul20 drawing stuff
+#1agu20 lanjut spawn apple gimana caranya, idul adha,
+#perapian code's, melihat penyembelihan kambing 
+#next:buyer percentage, save and load games
+#supaya datanya tidak hilang, kamu bisa menyimpannya di servernya google (klik save game to server) (fitur ini perlu login ke google play)
+#data gamenya tetap tersimpan meski misal kamu uninstall aplikasi ini atau pindah main di smartphone lainnya
+#ruru&archy menyarankan ini, perlu diketahui juga kalo data yang paling update itu ya yg sedang kamu mainkan saat ini
+#jadi jangan sampai ga sengaja me load data yang lama padahal yang terbaru sudah lebih jauh progressnya
+#work on RNG stuff
+#2agu20 lanjut rng
