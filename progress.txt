@@ -179,4 +179,4 @@
 #jadi jangan sampai ga sengaja me load data yang lama padahal yang terbaru sudah lebih jauh progressnya
 #work on RNG stuff
 #2agu20 lanjut rng
-.
+..
