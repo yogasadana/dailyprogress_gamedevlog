@@ -121,7 +121,7 @@ adb location : %LOCALAPPDATA%\Android\Sdk\platform-tools\adb.exe
 jarsigner :%PROGRAMFILES%\AdoptOpenJDK\jdk-8.0.252.09-hotspot\bin
 debug keystore :C:\Users\USERNAME\.android\
 
-
+adb logcat -s "godot"
 
 
 
